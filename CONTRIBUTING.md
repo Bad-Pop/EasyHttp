@@ -1,5 +1,4 @@
-#Conributing
-
+# Conributing
 
 Anyone wishing to contribute to the development of EasyHttp is welcome. Whether it is to propose an idea, fix a bug or even implement a new feature.
 
