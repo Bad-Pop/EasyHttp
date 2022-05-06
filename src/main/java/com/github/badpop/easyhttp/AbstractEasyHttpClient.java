@@ -117,7 +117,7 @@ public abstract sealed class AbstractEasyHttpClient permits EasyHttpClient {
   }
 
   protected <T> EasyHttpResponse<T> wrapResponse(HttpRequest request, HttpResponse<T> response, BodyHandler<T> bodyHandler, EasyHttpClient usedClient) {
-    return new EasyHttpResponse<T>(response, bodyHandler, request, usedClient);
+    return new EasyHttpResponse<>(response, bodyHandler, request, usedClient);
   }
 
   private ObjectMapper defaultObjectMapper() {

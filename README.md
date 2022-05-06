@@ -1,5 +1,11 @@
 # EasyHttp
 
+![GitHub](https://img.shields.io/github/license/Bad-Pop/EasyHttp?style=flat-square)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/Bad-Pop/EasyHttp/EasyHttp%20Build%20Action/main?style=flat-square)
+![Sonar Coverage](https://img.shields.io/sonar/coverage/Bad-Pop_EasyHttp/main?server=https%3A%2F%2Fsonarcloud.io&style=flat-square)
+![Sonar Tests](https://img.shields.io/sonar/tests/Bad-Pop_EasyHttp/main?compact_message&server=https%3A%2F%2Fsonarcloud.io&style=flat-square)
+
+
 ## What is EasyHttp ?
 
 EasyHttp is a library providing a java http client designed to interact in a faster, more secure and simpler way with
