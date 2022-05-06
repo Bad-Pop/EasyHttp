@@ -8,6 +8,35 @@
     <artifactId>easy-http</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
+    <name>EasyHttp</name>
+    <description>
+        EasyHttp is a library providing a java http client designed to interact in a faster, more secure and simpler way
+        with the http client introduced by Java 11. EasyHttp is fully interoperable with the java http client as it is
+        completely based on it.
+    </description>
+    <url>https://github.com/Bad-Pop/EasyHttp</url>
+
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>https://github.com/Bad-Pop/EasyHttp/blob/main/LICENSE</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>Bad_Pop</id>
+            <name>Alexis Vachard</name>
+            <email>alexis.vachard@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:Bad-Pop/EasyHttp.git</connection>
+        <developerConnection>scm:git:ssh://github.com:Bad-Pop/EasyHttp.git</developerConnection>
+        <url>https://github.com/Bad-Pop/EasyHttp</url>
+    </scm>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -218,12 +247,4 @@
             </plugin>
         </plugins>
     </reporting>
-
-    <distributionManagement>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>snapshot</name>
-            <url>http://serverip:8081/artifactory/plugins-snapshot-local</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
